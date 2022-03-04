@@ -1,0 +1,37 @@
+body{
+	background-color: lightgray;
+	/*background-image: url("../images/1.jpg");*/
+}
+
+.External{
+	background-color: plum;
+}
+.column{
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.KTM{
+	background-color: black;
+	border-top:4px solid;
+	border-bottom: 4px solid;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 65px;
+}
+.ktmpara{
+	padding: 30px;
+	line-height: 25px;
+	color: black;
+}
+.textline{
+	text-decoration: none;
+	border: 3px solid currentcolor;
+	color: blue;
+}
+.Big_img{
+	background-position: center;
+}
