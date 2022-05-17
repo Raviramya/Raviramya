@@ -1,0 +1,15 @@
+*{
+  
+  box-sizing: border-box;
+}
+#to_do_list{
+	color: blue;
+}
+#input{
+	height: 32px;
+}
+#add_item{
+	position: relative;
+	left: 5px;
+	height: 31px;
+}
