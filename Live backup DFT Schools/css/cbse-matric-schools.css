@@ -1,0 +1,64 @@
+body{
+  background-color: #e6e6fa;
+
+}
+
+.banner-img {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  height: 350px;
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  position: relative;
+  top: 106px;
+  width: 100%;
+  margin-bottom: 148px;
+}
+.banner-heading{
+  position: relative;
+    top: 127px;
+}
+.banner-heading p{
+  font-size: 20px;
+  color: white;
+}
+.banner-heading h3{
+  color: white;
+  font-weight: 700;
+}  
+  #gmap{
+  width: 97%;
+  height: 365px;
+  margin: 0 auto;
+}
+
+#menu {
+  /*width: 360px;*/
+  margin: 15px auto;
+  padding-left: 70px;
+  /*text-align:center;*/
+}
+#menu span.loc_link {
+  /*background: #0f89cf;*/
+  color: #000;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom:10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+#menu span#tool_tip {
+  display: inline-block;
+  margin-top: 10px;
+}
+@media screen and (max-width: 600px){
+.footer-bg {
+  margin-top: 0px;
+}
+#menu{
+  padding-left: 0px;
+}
+}  

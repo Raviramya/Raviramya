@@ -1,0 +1,60 @@
+.banner-img {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  height: 350px;
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  position: relative;
+  top: 106px;
+  width: 100%;
+  margin-bottom: 148px;
+}
+.vision-heading{
+	position: relative;
+    top: 127px;
+}
+.vision-heading p{
+	font-size: 20px;
+	color: white;
+}
+.vision-heading h3{
+	color: white;
+	font-weight: 700;
+}
+/*--------------------------------*/
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /*height: 271px !important;*/
+}
+.responsive-heading{
+color: #ffffff;
+    background-color: rgba(50, 115, 220, 0.5);
+    text-align: center;
+    line-height: 41px;
+    position: relative;
+    top: -84px;
+}
+@media (max-width:500px)  {
+.responsive-heading{
+  top: 0px;
+  font-size: 13px;
+ }  
+}
+@media screen and (max-width: 600px){
+.footer-bg {
+  margin-top: 0px;
+}
+}  
+/*--------------------------------------*/
+.vision{
+	padding: 28px;
+}
+.mission{
+	padding: 28px;
+}
