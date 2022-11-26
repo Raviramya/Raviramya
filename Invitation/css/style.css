@@ -191,7 +191,7 @@ date {
 
 #timer span {
   font-size: 60px;
-  color: #333;
+  color: #000;
   margin: 0 3px 0 15px;
 }
 
@@ -248,7 +248,7 @@ body {
 }
 
 .envelope {
-  background: #ff3c41;
+  background: #585151;
   width: 100%;
   height: 307.6923076923px;
   position: relative;
@@ -269,7 +269,7 @@ body {
   right: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-right: 500px solid #ff3237;
+  border-right: 500px solid #f8a6a8;
   z-index: 1;
 }
 
@@ -277,13 +277,13 @@ body {
   left: 0;
   border-bottom: 0px solid transparent;
   border-top: 307.6923076923px solid transparent;
-  border-left: 500px solid #ff1d23;
+  border-left: 500px solid #c5a1a2;
   z-index: 1;
 }
 
 .flap {
   border-right: 250px solid transparent;
-  border-top: 153.8461538462px solid #ef0006;
+  border-top: 153.8461538462px solid #585151;
   border-left: 250px solid transparent;
   position: absolute;
   left: 0;
@@ -332,7 +332,8 @@ body {
 }
 
 .front {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.gif);
+  background-color: #7c6f3c;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/39132/poke-bg.gif);*/
 }
 .front h1 {
   position: relative;
@@ -379,8 +380,8 @@ button {
   font: normal 1.25em "Karla", sans-serif;
   padding: 15px 30px;
   border-radius: 30px;
-  background: #ffce00;
-  color: #ff3c41;
+  background: #7c6f3c;
+  color: #65f306;
   border: none;
   position: absolute;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -394,7 +395,7 @@ button {
 }
 button.invert {
   color: #ffce00;
-  background: #ef0006;
+  background: #7c6f3c;
 }
 
 /*-----------------leaf-----------------------------*/
