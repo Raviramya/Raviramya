@@ -200,7 +200,8 @@ date {
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    /*background-color: lightblue;*/
+    background-image: url('image/bg-2.jpeg');
   }
   .logo{
     /*background-image: none;
@@ -219,7 +220,11 @@ date {
 /*---------------------------*/
 @import "https://fonts.googleapis.com/css?family=Karla|Slackey|Sriracha";
 body {
-  background: radial-gradient(ellipse at center, #7db9e8 0%, #005da6 100%);
+ /* background-image: url('../image/bg-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  background: radial-gradient(ellipse at center, #647DEE 0%, #7F53AC 100%);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
