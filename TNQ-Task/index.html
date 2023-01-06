@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+	         <div class="col-lg-12">
+			<div class="mt-5 text-center">
+				<h2>Showing for "Active"</h2>
+            </div>
+			</div>
+		</div>
+<!-- ============================================================================= -->
+     <section class="mt-3">
+     	<p>
+        <select class="custom-select custom-select-sm mb-3">
+      <option selected>Select Status</option>
+      <option value="">Active</option>
+      <option value="">Test-one</option>
+      <option value="">Test-two</option>
+    </select>
+     	<button type="button" class="btn btn-primary btn-lg" id="showbox" onclick="show()">Load</button>
+     </p>
+     </section>
+<!-- =================================== -->
+     <section style="display: none;" class="mt-5 mb-5" id="show">
+        <hr>
+     <div class="row align-items-center">
+    <table>
+  <tr>
+    <th class="heading">Capsule ID</th>
+    <th class="heading">No of Mission</th>
+    <th class="heading">Details</th>
+
+  </tr>
+  <tr>
+    <td>C106</td>
+    <td>3</td>
+    <td>First Dragon Capsule Resued</td>
+  </tr>
+  <tr>
+   <td>C205</td>
+    <td>1</td>
+    <td>In construction for use in first mission in contract under the CCtCap contract</td>
+  </tr>
+  <tr>
+   <td>C203</td>
+    <td>0</td>
+    <td>Rumored to be used for Inflit Abort Test after DM-1</td>
+  </tr>
+</table>
+  </div><hr>
+
+<script type="text/javascript">
+document.getElementById("showbox").onclick = function() {
+    document.getElementById("show").style.display = "block";
+}
+
+</script>
+</body>
+</html>

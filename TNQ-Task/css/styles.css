@@ -1,0 +1,19 @@
+.column{
+	width: 16.66666%;
+}
+hr{
+	background-color:black;
+}
+.countbox{
+	display: none;
+	width: 40%;
+	padding: 2px;
+	margin-left: 10px;
+}
+.heading{
+	padding: 10px;
+	font-size: 15px;
+}
+.custom-select{
+	width: 35%;
+}
