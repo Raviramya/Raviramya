@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>task</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/blog-card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+
+</head>
+<body>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- <h1 class="logo">Navbar</h1> -->
+            <img src="images/logo.png" alt="logo" class="logo">
+        </div>
+    </nav>
+<!-- -------------------------nav end--------------------------- -->
+<section>
+  <div class="second-content">
+  <div class="row">
+  <div class="box">
+    <img src="images/spin.png" alt="spin img" class="img-responsive">
+  </div>
+  <div class="box border">
+     <div class="left">
+      <div class="input-txt">INPUTS &nbsp;<button><span class="num">3<span></button></div>
+      
+  </div>
+  <div class="right">
+    <div class="icons">
+      <i class="fa fa-eye" aria-hidden="true"></i>
+      <i class="fa fa-folder" aria-hidden="true"></i>
+     <i class="fa fa-list-ul" aria-hidden="true"></i>
+     <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+    </div>
+  </div>
+<!-- ------------------todo---------------------   -->
+<div class="app-container" id="taskList">
+  <!-- <h1 class="app-header">TO DO LIST</h1> -->
+  <div class="add-task">
+    <input type="text" autocomplete="off" placeholder="Input Text Here" v-model="tasks.name" @keyup.enter="newItem" class="task-input">
+    <input type="submit" value="" class="submit-task" @click="newItem" title="Add Task">
+  </div>
+  <ul class="task-list">
+    <li class="task-list-item" v-for="task in tasks">
+      <label class="task-list-item-label">
+        <input type="checkbox">
+        <span>{{task.name}}</span>
+      </label>
+      <span @click="delItem(task)" class="delete-btn" title="Delete Task">{{task.del}}</span>
+    </li>
+  </ul>
+</div>
+<!-- ----------------------------------------- -->
+
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
